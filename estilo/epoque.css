@@ -3,10 +3,10 @@
     color: lavender;
 }
 body {
-    font: normal normal normal 1em/1 'epoque-light', sans-serif;
+    font: normal normal normal 1em/1 'epoque_seria', sans-serif;
 }
 section>h1 {
-    font: normal normal 6em/1 'epoque-light', sans-serif;
+    font: normal normal 6em/1 'EpoqueSeria', sans-serif;
     text-align: center;
     color: white;
     padding-top: 96px;
@@ -209,7 +209,7 @@ h2 {
 }
 
 #p96:hover {
-    font: italic bold 1em/6.15em 'epoque-light', sans-serif;
+    font: italic bold 1em/6.15em 'EpoqueSeria', sans-serif;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
@@ -229,7 +229,7 @@ h2 {
 }
 
 #p96::first-line {
-    font: normal normal normal 12em/1em 'epoque-light', sans-serif;
+    font: normal normal normal 12em/1em 'EpoqueSeria', sans-serif;
     display: inline-block;
     float: left;
 }
@@ -291,7 +291,7 @@ h2 {
 }
 
 #p32::first-line {
-    font-family: 'epoque-light';
+    font-family: 'EpoqueSeria';
     font-variant: "normal";
     font-weight: "bold";
     display: "inline-block";
@@ -495,7 +495,7 @@ p.figures1:hover::before {
 }
 
 p.figures2:hover {
-    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
+    font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
@@ -513,7 +513,7 @@ p.figures2:hover::before {
 }
 
 p.figures3:hover {
-    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
+    font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig","sups";
@@ -531,7 +531,7 @@ p.figures3:hover::before {
 }
 
 p.figures4:hover {
-    font: normal normal 1em/1.15em 'epoque-light', sans-serif;
+    font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
     color: #499bf8;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
@@ -575,7 +575,7 @@ p.figures4:hover::before {
 
 #info>h3 {
     width: 240px;
-    font: bold normal 2.5em/1em 'epoque-light', sans-serif;
+    font: bold normal 2.5em/1em 'EpoqueSeria', sans-serif;
     margin: 24px auto 0 auto;
     position: relative;
 }
@@ -814,7 +814,7 @@ footer {
     }
     #info>h3 {
         width: 420px;
-        font: bold normal 2.5em/1em 'epoque-light', sans-serif;
+        font: bold normal 2.5em/1em 'EpoqueSeria', sans-serif;
         margin: 8px auto 8px auto;
         letter-spacing: -0.04em;
         text-transform: uppercase;
@@ -830,7 +830,7 @@ footer {
     }
     #info p {
         width: 300px;
-        font: normal normal 1.15em/1.2em 'epoque-light', sans-serif;
+        font: normal normal 1.15em/1.2em 'EpoqueSeria', sans-serif;
         padding: 12px 10px 0 0;
         margin: 0;
     }
@@ -867,7 +867,7 @@ footer {
     }
     section>h1 {
         text-align: center;
-        font: normal normal 7em/1 'epoque-light', sans-serif;
+        font: normal normal 7em/1 'EpoqueSeria', sans-serif;
         padding-top: 16vw;
     }
     .branca1,
@@ -1049,7 +1049,7 @@ footer {
     
     #info>h3 {
         width: 400px;
-        font: bold normal 2em/1em 'epoque-light', sans-serif;
+        font: bold normal 2em/1em 'EpoqueSeria', sans-serif;
         margin: 8px auto 8px auto;
         letter-spacing: -0.03em;
         text-transform: uppercase;
@@ -1065,7 +1065,7 @@ footer {
     }
     #info p {
         width: 300px;
-        font: bold normal 1em/1.2em 'epoque-light', sans-serif;
+        font: bold normal 1em/1.2em 'EpoqueSeria', sans-serif;
         padding: 12px 10px 0 0;
         margin: 0;
     }
@@ -1100,7 +1100,7 @@ footer {
         height: 80vw;
     }
     section>h1 {
-        font: normal normal 5em/1 'epoque-light', sans-serif;
+        font: normal normal 5em/1 'EpoqueSeria', sans-serif;
         padding-top: 16vw;
     }
     .branca1,
@@ -1154,7 +1154,7 @@ footer {
         margin-top: 9.2em;
     }
     .superior {
-        font: bold normal 3em/1em 'epoque-light', sans-serif;
+        font: bold normal 3em/1em 'EpoqueSeria', sans-serif;
         margin: 2vh 30vh 0 3vh;
     }
     div#video {
@@ -1279,7 +1279,7 @@ footer {
     }
     #info>h3 {
         width: 300px;
-        font: bold normal 1.8em/1em 'epoque-light', sans-serif;
+        font: bold normal 1.8em/1em 'EpoqueSeria', sans-serif;
         margin: 8px auto 0 auto;
         letter-spacing: -0.04em;
         text-transform: uppercase;
@@ -1295,7 +1295,7 @@ footer {
     }
     #info p {
         width: 300px;
-        font: bold normal 0.85em/1.2em 'epoque-light', sans-serif;
+        font: bold normal 0.85em/1.2em 'EpoqueSeria', sans-serif;
         padding: 12px 0;
         margin: 0;
     }

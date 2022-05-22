@@ -1,0 +1,59 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4871178, 2022-05-22T07:37:48-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: EpoqueSeria-XtLight by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/3-extra-light/
+ * 
+ * Webfont: EpoqueSeria-XtLightIt by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/3-extra-light-italic/
+ * 
+ * Webfont: EpoqueSeria-RomanIt by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/5-roman-italic/
+ * 
+ * Webfont: EpoqueSeria-Roman by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/5-roman/
+ * 
+ * 
+ * Webfonts copyright: Copyright © 2019 by Rafaeiro. All rights reserved.
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+  
+@font-face {
+  font-family: "EpoqueSeria";
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeria/italic_normal_bold.woff2') format('woff2'), url('webFonts/EpoqueSeria/italic_normal_bold.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeria";
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeria/normal_normal_normal.woff2') format('woff2'), url('webFonts/EpoqueSeria/normal_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeria";
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeria/normal_normal_bold.woff2') format('woff2'), url('webFonts/EpoqueSeria/normal_normal_bold.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeria";
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeria/italic_normal_normal.woff2') format('woff2'), url('webFonts/EpoqueSeria/italic_normal_normal.woff') format('woff');
+}
+
