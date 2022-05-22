@@ -175,6 +175,7 @@ section {
 }
 
 .tabular {
+    
     background-image: url("../midia/algarismos/figuras_tab.png");
     background-position: center right;
     background-size: 26%;
@@ -338,7 +339,7 @@ h2 {
 
 .paginas {
     position: relative;
-    background-color: #04456A;
+    background-image: linear-gradient(to right, #E8164E , #F25561);
     height: 100vh;
     text-align: center;
     padding-top: 20px;
