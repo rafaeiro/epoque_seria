@@ -26,36 +26,33 @@
  * © 2022 MyFonts Inc
 */
 
-
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/4a540b");
+@font-face {
+  font-family: "EpoqueSeriaBlack";
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeriaBlack/normal_normal_normal.woff2') format('woff2'), url('webFonts/EpoqueSeriaBlack/normal_normal_normal.woff') format('woff');
+} 
+@font-face {
+  font-family: "EpoqueSeriaBlack";
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeriaBlack/italic_normal_normal.woff2') format('woff2'), url('webFonts/EpoqueSeriaBlack/italic_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeriaBlack";
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  src: url('webFonts/EpoqueSeriaBlack/normal_normal_bold.woff2') format('woff2'), url('webFonts/EpoqueSeriaBlack/normal_normal_bold.woff') format('woff');
   
+}
 @font-face {
-  font-family: "EpoqueSeria";
+  font-family: "EpoqueSeriaBlack";
   font-style: italic;
   font-weight: bold;
   font-stretch: normal;
-  src: url('webFonts/EpoqueSeria/italic_normal_bold.woff2') format('woff2'), url('webFonts/EpoqueSeria/italic_normal_bold.woff') format('woff');
-}
-@font-face {
-  font-family: "EpoqueSeria";
-  font-style: italic;
-  font-weight: normal;
-  font-stretch: normal;
-  src: url('webFonts/EpoqueSeria/italic_normal_normal.woff2') format('woff2'), url('webFonts/EpoqueSeria/italic_normal_normal.woff') format('woff');
-}
-@font-face {
-  font-family: "EpoqueSeria";
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  src: url('webFonts/EpoqueSeria/normal_normal_normal.woff2') format('woff2'), url('webFonts/EpoqueSeria/normal_normal_normal.woff') format('woff');
-}
-@font-face {
-  font-family: "EpoqueSeria";
-  font-style: normal;
-  font-weight: bold;
-  font-stretch: normal;
-  src: url('webFonts/EpoqueSeria/normal_normal_bold.woff2') format('woff2'), url('webFonts/EpoqueSeria/normal_normal_bold.woff') format('woff');
+  src: url('webFonts/EpoqueSeriaBlack/italic_normal_bold.woff2') format('woff2'), url('webFonts/EpoqueSeriaBlack/italic_normal_bold.woff') format('woff');
 }
 

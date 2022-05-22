@@ -3,16 +3,17 @@
     color: lavender;
 }
 body {
-    font: normal normal normal 1em/1 'epoque_seria', sans-serif;
+    font: normal normal normal 1em/1 'EpoqueSeria', sans-serif;
 }
 section>h1 {
-    font: normal normal 6em/1 'EpoqueSeria', sans-serif;
-    text-align: center;
+    font: normal normal 5em/1 'EpoqueSeria', sans-serif;
+    text-align: left;
     color: white;
-    padding-top: 96px;
+    padding-top: 72px;
+    padding-left: 38vw;
 }
 
- {
+ .salt {
     color: white;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
@@ -61,11 +62,12 @@ section {
 }
 
 #prologo p {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 1.25em;
     padding-top: 15vh;
     padding-bottom: 5px;
+    padding-left: 38vw;
     color: white;
     z-index: 1010;
 }
@@ -257,10 +259,10 @@ h2 {
 }
 
 #p48::first-line {
-    font-family: 'epoque';
+    font-family: 'EpoqueSeriaBlack';
     font-variant: normal;
     font-weight: normal;
-    display: inline-block;
+    display: block;
     font-size: 6em;
     float: left;
     letter-spacing: 0.005em;
@@ -325,7 +327,7 @@ h2 {
 }
 
 #p24::first-line {
-    font-family: 'epoque';
+    font-family: 'EpoqueSeriaBlack';
     font-variant: normal;
     font-weight: bold;
     display: block;
@@ -349,7 +351,7 @@ h2 {
     position: absolute;
     z-index: 999;
     display: block;
-    font: bold normal 8em/1.15 'epoque', sans-serif;
+    font: bold normal 8em/1.15 'EpoqueSeriaBlack', sans-serif;
     color: lavender;
     background-color: #04456ae8;
     clear: both;
@@ -470,7 +472,7 @@ picture>img {
 }
 
 #fig {
-    font: normal normal 4em/1.15em 'epoque', sans-serif;
+    font: normal normal 4em/1.15em 'EpoqueSeriaBlack', sans-serif;
     text-align: left;
 }
 .figures4 {
