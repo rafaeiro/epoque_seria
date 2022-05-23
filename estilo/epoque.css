@@ -1,12 +1,14 @@
 @charset "utf-8";
 
 :root{
-    --cor01: white;
-    --cor02: #e6e6fa;
-    --cor03: #499bf8;
-    --cor04: #1a67be;
-    --cor05: #04456A;
-    --gradiente: (background-image: linear-gradient(to right, #E8164E , #F25561)) ;
+    --cor01: rgba(255, 255, 255, 0.85);
+    --cor02: #ffffff;
+    --cor03: #e6e6e6;
+    --cor04: #00233c;
+    --cor05: #00233cd2;
+    --cor06: #010816;
+    --cor07: #E8164E;
+    --cor07: #F25561;
 }
 * {
     color: var(--cor02);
@@ -15,20 +17,24 @@ body {
     font: normal normal normal 1em/1 'EpoqueSeria', sans-serif;
 }
 section>h1 {
-    font: normal normal 5em/1 'EpoqueSeria', sans-serif;
+    font: normal bold 5em/1 "EpoqueSeriaBlack", sans-serif;
     text-align: left;
-    color: --cor01;
+    color: var(--cor02);
     padding-top: 72px;
     padding-left: 38vw;
 }
 
  .salt {
-    color: var(--cor01);
+    color: var(--cor02);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
+}
+.smcp{
+    font-family: "EpoqueSeria-BoldSc";
+    letter-spacing: 0.025em; 
 }
 
 p,
@@ -49,7 +55,7 @@ ul {
     list-style-type: none;
 }
 a {
-    color: var(--cor03) ;
+    color: var(--cor04) ;
 }
 a:hover:active {
     color: var(--cor04) ;
@@ -77,18 +83,18 @@ section {
     padding-top: 15vh;
     padding-bottom: 5px;
     padding-left: 38vw;
-    color: var(--cor01);
+    color: var(--cor06);
     z-index: 1010;
 }
 
 .indice a {
-    color: rgba(230, 230, 250, 0.747);
+    color: var(--cor03);
     position: relative;
     float: left;
     text-decoration: none;
     background-color: rgba(51, 82, 90, 0.08);
     padding: .2em .4em .28em .4em;
-    margin-top: 154px;
+    margin-top: 108px;
     border-style: solid;
     border-color: rgba(4, 69, 106, 0.053);
     border-left-color: rgba(4, 69, 106, 0.09);
@@ -125,7 +131,7 @@ section {
 #prologo {
     background-color: rgb(252, 253, 253);
     width: 100%;
-    background-image: url("../midia/imagens/background001.png");
+    background-image: linear-gradient(to right, #E8164E , #F25561);;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -207,10 +213,11 @@ section {
 
 h2 {
     font-size: 3em;
+    color: var(--cor06);
 }
 .tamanhos {
     width: 100%;
-    float: left;
+    float: left;    
 }
 #p96 {
     float: left;
@@ -227,7 +234,7 @@ h2 {
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
-    color: var(--cor03);
+    color: var(--cor04);
     
 }
 
@@ -256,7 +263,7 @@ h2 {
 
 #p48:hover {
     font-style: italic;
-    color: var(--cor03);
+    color: var(--cor04);
 }
 
 #p48::after {
@@ -290,7 +297,7 @@ h2 {
 #p32:hover {
     font-style: italic;
     font-weight: normal;
-    color: var(--cor03);
+    color: var(--cor04);
 }
 
 #p32::after {
@@ -324,7 +331,7 @@ h2 {
 
 #p24:hover {
     font-style: italic;
-    color: var(--cor03);
+    color: var(--cor04);
 }
 
 #p24::after {
@@ -490,7 +497,7 @@ picture>img {
 }
 
 p.figures1:hover {
-    color: var(--cor03);
+    color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum";
@@ -508,7 +515,7 @@ p.figures1:hover::before {
 
 p.figures2:hover {
     font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
-    color: var(--cor03);
+    color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
@@ -526,7 +533,7 @@ p.figures2:hover::before {
 
 p.figures3:hover {
     font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
-    color: var(--cor03);
+    color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig","sups";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
@@ -544,7 +551,7 @@ p.figures3:hover::before {
 
 p.figures4:hover {
     font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
-    color: var(--cor03);
+    color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
@@ -553,7 +560,7 @@ p.figures4:hover {
 }
 
 #num:hover {
-    color: var(--cor03);
+    color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "dnom";
@@ -678,16 +685,15 @@ footer {
         height: 110vh;
     }
     #prologo {
-        background-image: url("../midia/imagens/background001-tb.png");
         padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-bottom: 7vh;
     }
     #prologo p {
         padding-top: 13vw;
-        padding-bottom: 9vw;
+        padding-bottom: 6vw;
     }
     .indice{
-        margin-top: 8vh;
+        margin-top: 6vh;
     }
 
     .indice a {
@@ -889,7 +895,6 @@ footer {
         padding-bottom: 10vw;
     }
     #prologo {
-        background-image: url("../midia/imagens/background001-sm.png");
         padding-top: 12vh;
         padding-bottom: 17vh;
         font-size: 1em;
@@ -1122,7 +1127,6 @@ footer {
         padding-bottom: 15vw;
     }
     #prologo {
-        background-image: url("../midia/imagens/background001-sm.png");
         padding-top: 12vh;
         padding-bottom: 17vh;
         font-size: 1.1em;

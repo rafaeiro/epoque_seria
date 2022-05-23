@@ -1,0 +1,47 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4871182, 2022-05-22T08:35:18-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: EpoqueSeria-LightSc by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/4-light-sc/
+ * 
+ * Webfont: EpoqueSeria-RomanSc by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/5-roman-sc/
+ * 
+ * Webfont: EpoqueSeria-BoldSc by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/6-bold-sc/
+ * 
+ * Webfont: EpoqueSeria-XtLightSc by Rafaeiro Typeiro
+ * URL: https://www.myfonts.com/fonts/rafaeiro-typeiro/epoque-seria/3-xt-light-sc/
+ * 
+ * 
+ * Webfonts copyright: Copyright © 2019 by Rafaeiro. All rights reserved.
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+  
+@font-face {
+  font-family: "EpoqueSeria-LightSc";
+  src: url('webFonts/EpoqueSeriaLightSc/font.woff2') format('woff2'), url('webFonts/EpoqueSeriaLightSc/font.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeria-RomanSc";
+  src: url('webFonts/EpoqueSeriaRomanSc/font.woff2') format('woff2'), url('webFonts/EpoqueSeriaRomanSc/font.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeria-XtLightSc";
+  src: url('webFonts/EpoqueSeriaXtLightSc/font.woff2') format('woff2'), url('webFonts/EpoqueSeriaXtLightSc/font.woff') format('woff');
+}
+@font-face {
+  font-family: "EpoqueSeria-BoldSc";
+  src: url('webFonts/EpoqueSeriaBoldSc/font.woff2') format('woff2'), url('webFonts/EpoqueSeriaBoldSc/font.woff') format('woff');
+}
+
