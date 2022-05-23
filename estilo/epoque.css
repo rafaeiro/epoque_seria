@@ -8,7 +8,7 @@
     --cor05: #00233cd2;
     --cor06: #010816;
     --cor07: #E8164E;
-    --cor07: #F25561;
+    --cor08: #F25561;
 }
 * {
     color: var(--cor02);
@@ -131,10 +131,12 @@ section {
 #prologo {
     background-color: rgb(252, 253, 253);
     width: 100%;
-    background-image: linear-gradient(to right, #E8164E , #F25561);;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url("../midia/imagens/background-lines-large_01.png"), linear-gradient(to right, #E8164E , #F25561);
+    background-position: bottom center;
+    background-size: 100%;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
     box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.48);
     padding-top: 80px;
     padding-bottom: 80px;
@@ -143,18 +145,20 @@ section {
 
 .branca1 {
     height: 80vh;
-    background-color: black;
-    background-image: url("../midia/imagens/background002.png");
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url("../midia/imagens/background-lines-large_02.png");
+    background-color: var(--cor01);
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
     padding-top: 10vh;
     padding-bottom: 10vh;
     z-index: 999;
 }
 
 #desc {
-    color: var(--cor05);
+    color: var(--cor06);
     text-align: left;
     margin: 0 18vw 4vw 18vw;
     padding-top: 8vw;
@@ -676,6 +680,12 @@ footer {
     section {
         height: 54vw;
     }
+    section>h1 {
+        text-align: left;
+        color: var(--cor02);
+        padding-top: 72px;
+        padding-left: 30vw;
+    }
     .paginas {
         height: 100vh;
         padding-top: 60px;
@@ -685,15 +695,17 @@ footer {
         height: 110vh;
     }
     #prologo {
-        padding-top: 10vh;
+        background-image: url("../midia/imagens/background-lines-medi_01.png"), linear-gradient(to right, #E8164E , #F25561);
+        padding-top: 08vh;
         padding-bottom: 7vh;
     }
     #prologo p {
-        padding-top: 13vw;
-        padding-bottom: 6vw;
+        padding-top: 11vw;
+        padding-bottom: 2.5vw;
+        padding-left: 30vw;
     }
     .indice{
-        margin-top: 6vh;
+        margin-top: 1vh;
     }
 
     .indice a {
@@ -702,7 +714,7 @@ footer {
     }
     .branca1 {
         height: 85vw;
-        background-image: url("../midia/imagens/background002-tb.png");
+        background-image: url("../midia/imagens/background-lines-media_02.png");
         padding-top: 10vw;
         padding-bottom: 10vw;
     }
@@ -887,6 +899,7 @@ footer {
         text-align: center;
         font: normal normal 7em/1 'EpoqueSeria', sans-serif;
         padding-top: 16vw;
+        padding-left: 20vw;
     }
     .branca1,
     .paginas,
@@ -895,6 +908,7 @@ footer {
         padding-bottom: 10vw;
     }
     #prologo {
+        background-image: url("../midia/imagens/background-lines-peque_01.png"), linear-gradient(to right, #E8164E , #F25561);
         padding-top: 12vh;
         padding-bottom: 17vh;
         font-size: 1em;
@@ -920,7 +934,7 @@ footer {
     }
     .branca1 {
         height: 88vh;
-        background-image: url("../midia/imagens/background002-sm.png");
+        background-image: url("../midia/imagens/background-lines-peque_02.png");
         padding-top: 5vw;
         padding-bottom: 5vw;
     }

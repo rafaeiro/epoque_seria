@@ -19,6 +19,12 @@
 }
 #mapadecaracteres {
     height: 80vw;
+    background-image: url("../midia/imagens/background-lines-large_02.png");
+    background-position: top center;
+    background-size: 100%;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
 }
 #map {
     margin:0 16.82vw;
@@ -124,6 +130,14 @@
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px){
+    #mapadecaracteres {
+        background-image: url("../midia/imagens/background-lines-media_02.png");
+        background-position: top center;
+        background-size: 100%;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+    }
     #map {
         margin:0 4vw;
     }
@@ -146,6 +160,14 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px){
+    #mapadecaracteres {
+        background-image: url("../midia/imagens/background-lines-peque_02.png");
+        background-position: top center;
+        background-size: 100%;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+    }
     #map {
         margin:0 2vw;
     }
