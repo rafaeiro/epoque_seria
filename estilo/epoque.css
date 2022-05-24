@@ -903,10 +903,10 @@ footer {
         height: 68vw;
     }
     section>h1 {
-        text-align: center;
-        font: normal normal 7em/1 'EpoqueSeria', sans-serif;
-        padding-top: 16vw;
-        padding-left: 20vw;
+        text-align: left;
+        font: normal normal 5em/1 'EpoqueSeria', sans-serif;
+        padding-top: 12vw;
+        padding-left: 24vw;
     }
     .branca1,
     .paginas,
@@ -922,6 +922,7 @@ footer {
     }
     #prologo p {
         padding-top: 20vw;
+        padding-left: 24vw;
     }
     .indice{
         margin-top: 12vh;
@@ -1138,25 +1139,27 @@ footer {
         height: 80vw;
     }
     section>h1 {
-        font: normal normal 5em/1 'EpoqueSeria', sans-serif;
-        padding-top: 16vw;
+        font: normal normal 3.8em/1 'EpoqueSeria', sans-serif;
+        padding-top: 10vw;
+        padding-left: 20vw;
     }
     .branca1,
     .paginas,
     .prologo {
-        padding-top: 5vw;
-        padding-bottom: 15vw;
+        padding-top: 1vh;
+        padding-bottom: 10vh;
     }
     #prologo {
         padding-top: 12vh;
-        padding-bottom: 17vh;
+        padding-bottom: 12vh;
         font-size: 1.1em;
     }
     #prologo p {
-        padding-top: 18vw;
+        padding-top: 11vh;
+        padding-left: 6vw;
     }
     .indice{
-        margin-top: 20vw;
+        margin-top: 8vh;
     }
     .indice a {
         margin-top: 0px;
