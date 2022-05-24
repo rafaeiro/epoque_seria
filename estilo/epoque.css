@@ -10,11 +10,11 @@
     --cor07: #E8164E;
     --cor08: #F25561;
     --tipBase: "EpoqueSeria";
-    --tipBold: "EpoqueSeriaBlack";
-    --tipSc1: "EpoqueSeria-XtLightSc";
-    --tipSc2: "EpoqueSeria-LightSc";
-    --tipSc3: "EpoqueSeria-RomanSc";
-    --tipSc4: "EpoqueSeria-BoldSc";
+    --tipBold: "EpoqueSeriaBlack"; 
+    --tipSc1: "EpoqueSeria-XtLightSc"; /* Essa fonte não dispões de Bold e Itálic como recurso css*/
+    --tipSc2: "EpoqueSeria-LightSc"; /* Essa fonte não dispões de Bold e Itálic como recurso css*/
+    --tipSc3: "EpoqueSeria-RomanSc"; /* Essa fonte não dispões de Bold e Itálic como recurso css*/
+    --tipSc4: "EpoqueSeria-BoldSc"; /* Essa fonte não dispões de Bold e Itálic como recurso css*/
 }
 * {
     color: var(--cor02);
@@ -38,7 +38,7 @@ section>h1 {
     -ms-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
 }
-.smcp{
+.smcp{ /* muda a fonte para a versão com smcp*/
     font-family: var(--tipSc4);
     letter-spacing: 0.025em; 
 }
@@ -193,7 +193,7 @@ section {
 }
 .numeros {
     margin: 0 0% 0 4%;
-    padding: 1rem 0vw 2vh 0vw;
+    padding: 1rem 0vw 2vh 11.8vw;
 }
 
 .tabular {
