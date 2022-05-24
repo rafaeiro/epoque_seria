@@ -374,9 +374,9 @@ h2 {
     background-color: var(--cor05);
     clear: both;
     margin: 20vh 15vh 5vh 6vh;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5px );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.3 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
     border-radius: 10px;
     border-top: 1px solid rgba( 255, 255, 255, 0.18 );
     border-left: 1px solid rgba( 255, 255, 255, 0.18 );
