@@ -9,15 +9,21 @@
     --cor06: #010816;
     --cor07: #E8164E;
     --cor08: #F25561;
+    --tipBase: "EpoqueSeria";
+    --tipBold: "EpoqueSeriaBlack";
+    --tipSc1: "EpoqueSeria-XtLightSc";
+    --tipSc2: "EpoqueSeria-LightSc";
+    --tipSc3: "EpoqueSeria-RomanSc";
+    --tipSc4: "EpoqueSeria-BoldSc";
 }
 * {
     color: var(--cor02);
 }
 body {
-    font: normal normal normal 1em/1 'EpoqueSeria', sans-serif;
+    font: normal normal normal 1em/1 var(--tipBase), sans-serif;
 }
 section>h1 {
-    font: normal bold 5em/1 "EpoqueSeriaBlack", sans-serif;
+    font: normal bold 5em/1 var(--tipBold), sans-serif;
     text-align: left;
     color: var(--cor02);
     padding-top: 72px;
@@ -33,7 +39,7 @@ section>h1 {
     -o-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
 }
 .smcp{
-    font-family: "EpoqueSeria-BoldSc";
+    font-family: var(--tipSc4);
     letter-spacing: 0.025em; 
 }
 
@@ -229,7 +235,7 @@ h2 {
 }
 
 #p96:hover {
-    font: italic bold 1em/6.15em 'EpoqueSeria', sans-serif;
+    font: italic bold 1em/6.15em var(--tipBase), sans-serif;
     font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
     -webkit-font-feature-settings: "kern" on, "liga" on, "calt" off, "salt";
@@ -249,7 +255,7 @@ h2 {
 }
 
 #p96::first-line {
-    font: normal normal normal 12em/1em 'EpoqueSeria', sans-serif;
+    font: normal normal normal 12em/1em var(--tipBase), sans-serif;
     display: inline-block;
     float: left;
 }
@@ -277,7 +283,7 @@ h2 {
 }
 
 #p48::first-line {
-    font-family: 'EpoqueSeriaBlack';
+    font-family: var(--tipBold);
     font-variant: normal;
     font-weight: normal;
     display: block;
@@ -311,7 +317,7 @@ h2 {
 }
 
 #p32::first-line {
-    font-family: 'EpoqueSeria';
+    font-family: var(--tipBase);
     font-variant: "normal";
     font-weight: "bold";
     display: "inline-block";
@@ -345,7 +351,7 @@ h2 {
 }
 
 #p24::first-line {
-    font-family: 'EpoqueSeriaBlack';
+    font-family: var(--tipBold);
     font-variant: normal;
     font-weight: bold;
     display: block;
@@ -369,7 +375,7 @@ h2 {
     position: absolute;
     z-index: 999;
     display: block;
-    font: bold normal 8em/1.15 'EpoqueSeriaBlack', sans-serif;
+    font: bold normal 8em/1.15 var(--tipBold), sans-serif;
     color: var(--cor02);
     background-color: var(--cor05);
     clear: both;
@@ -496,7 +502,7 @@ picture>img {
 }
 
 #fig {
-    font: normal normal 4em/1.15em 'EpoqueSeriaBlack', sans-serif;
+    font: normal bold 4em/1.15em var(--tipBold), sans-serif;
     text-align: left;
 }
 .figures4 {
@@ -521,7 +527,7 @@ p.figures1:hover::before {
 }
 
 p.figures2:hover {
-    font: normal normal 1em/1.15em 'EpoqueSeriaBlack', sans-serif;
+    font: normal bold 1em/1.15em var(--tipBold), sans-serif;
     color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "dnom";
@@ -539,7 +545,7 @@ p.figures2:hover::before {
 }
 
 p.figures3:hover {
-    font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
+    font: normal bold 1em/1.15em var(--tipBase), sans-serif;
     color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "sups";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig","sups";
@@ -557,7 +563,7 @@ p.figures3:hover::before {
 }
 
 p.figures4:hover {
-    font: normal normal 1em/1.15em 'EpoqueSeria', sans-serif;
+    font: normal normal 1em/1.15em var(--tipBase), sans-serif;
     color: var(--cor04);
     font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
     -moz-font-feature-settings: "kern" on, "liga" on, "calt" off, "dlig", "onum", "numr";
@@ -601,7 +607,7 @@ p.figures4:hover::before {
 
 #info>h3 {
     width: 240px;
-    font: bold normal 2.5em/1em 'EpoqueSeria', sans-serif;
+    font: bold normal 2.5em/1em var(--tipBase), sans-serif;
     margin: 24px auto 0 auto;
     position: relative;
 }
