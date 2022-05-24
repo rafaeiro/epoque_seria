@@ -1161,8 +1161,9 @@ footer {
     }
     section>h1 {
         font: normal normal 3.8em/1 'EpoqueSeria', sans-serif;
-        padding-top: 10vw;
-        padding-left: 20vw;
+        padding-top: 6.5vh;
+        padding-left: 11vw;
+        line-height: .78em;
     }
     .branca1,
     .paginas,
@@ -1171,16 +1172,18 @@ footer {
         padding-bottom: 10vh;
     }
     #prologo {
-        padding-top: 12vh;
-        padding-bottom: 12vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        
         font-size: 1.1em;
     }
     #prologo p {
-        padding-top: 11vh;
+        font-size: 1em;
+        padding-top: 9vh;
         padding-left: 6vw;
     }
     .indice{
-        margin-top: 8vh;
+        margin-top: 6vh;
     }
     .indice a {
         margin-top: 0px;
