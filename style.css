@@ -1,0 +1,91 @@
+/*
+╭─────────╮
+│ GLOBALS │
+╰─────────╯
+*/
+
+:root {
+    --black: #000;
+    --off-black: #333;
+    --accent: #ff5030; /* #e39b10 */
+    --accent-dark: #a53b28;
+    --white: #f6f6f6;
+    --off-white: #eee;
+    --gridline: #999;
+    --link: #666;
+
+
+    --solid: 1px solid var(--gridline);
+    --dashed: 1px dashed var(--gridline);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "EpoqueSeria";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "MD System";
+    font-size: 16px;
+    line-height: 20px;
+
+    background-color: var(--white);
+}
+
+.glyphset__track { grid-column: 1 / span 1; }
+    .glyphset__palette { grid-column: 2 / span 5; }
+
+    #glyphset ul { list-style: none; margin: 0; padding: 0; }
+
+    .glyphset__follower {
+        position: sticky;
+        top: 22px;
+    }
+
+    .glyphset__follower svg {
+        fill: var(--accent);
+        border-bottom: var(--solid);
+        width: 100%;
+        height: auto;
+        margin-top: -3px; /* Align to palette grid */
+    }
+
+    .glyphset__category {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .glyphset__category p.subhead {
+        grid-column: 1 / span 1;
+        text-align: right;
+        --wdth: 50;
+    }
+
+    .glyphset__swatches {
+        grid-column: 2 / span 4;
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+    }
+
+    .glyphset__swatch {
+        padding: 5px;
+        line-height: 0;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        border: var(--solid);
+        margin: -1px -1px 0px 0px;
+    }
+
+    .glyphset__swatch:nth-child(16n) { border-right: none; margin-right: 1px; }
+
+    .glyphset__swatch svg {
+        fill: #000;
+        width: 100%;
+        height: auto;
+    }
+
+    .glyphset__swatch:hover svg { fill: var(--accent); }
