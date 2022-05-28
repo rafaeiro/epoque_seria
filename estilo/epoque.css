@@ -208,6 +208,18 @@ section {
 #paginas {
     height: 150vh;
 }
+.paginas1 {
+    background-image: url("../midia/imagens/originais/comparativo.svg"); 
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top center;
+    background-size: cover;
+    margin: -1.3vh auto;
+    min-height: 128vh;
+    height: 188vh;
+    background-color: #f1f2f3;
+    z-index: 1000;
+}
 #terceira{
     z-index: 1;
 }
@@ -699,6 +711,15 @@ footer {
         height: 100vh;
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    .paginas1 {
+        background-image: url("../midia/imagens/originais/comparativo.svg"); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 128vh;
+        max-height: 78vh;
     }
     #alg {
         height: 110vh;
