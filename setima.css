@@ -434,8 +434,11 @@ p {
 
 /* EXTRA TINY */
 @media only screen and (max-width: 500px) {
+    #waterfall {
+        height: 190vh;
+    }
     #opentype {
-        height: 380vh;
+        height: 405vh;
     }
     .styles_overview p { display: none; }
     .styles_overview div { grid-column: 1 / -1; border-bottom: var(--dashed); }
