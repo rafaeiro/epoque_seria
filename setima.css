@@ -483,8 +483,16 @@ p {
 
 /* EXTRA TINY */
 @media only screen and (max-width: 500px) {
+<<<<<<< HEAD
     #opentype {
         height: 380vh;
+=======
+    #waterfall {
+        height: 190vh;
+    }
+    #opentype {
+        height: 405vh;
+>>>>>>> parent of 54fd217 (fix responsividade)
     }
     .styles_overview p { display: none; }
     .styles_overview div { grid-column: 1 / -1; border-bottom: var(--dashed); }
