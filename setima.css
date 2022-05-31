@@ -20,16 +20,17 @@
     --dashed: 1px dashed var(--gridline);
 }
 
-#waterfall {
-    height: 220vh;
+
+* {
     box-sizing: border-box;
-    font-variation-settings: normal bold normal;
+    font-variation-settings: normal bold normal;d
+}
+
+#waterfall {
+    height: 220vh; 
 }
 #opentype {
-    width: 94vw;
     height: 135vh;
-    box-sizing: border-box;
-    font-variation-settings: normal bold normal;
 }
 
 
@@ -40,8 +41,8 @@ b { font-family: "EpoqueSeriaBlack"; font-weight: bold; }
 i,
 em { font-style: italic;}
 
-h4
- {
+h4,
+p {
     margin: 0px;
     font-style: normal;
     font-weight: bold;
@@ -60,8 +61,7 @@ p {
 ╰──────╯
 */
 .background_grid {
-
-    position: sticky;
+    position: fixed;
     z-index: 0;
     pointer-events: none;
 
@@ -74,8 +74,8 @@ p {
 .background_grid div:last-child { border-right: var(--solid); }
 
 .grid {
-    width: 100vw;
-    padding: 0px 28px;
+    width: 100%;
+    padding: 0px 32px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
@@ -121,7 +121,7 @@ p {
 .content_section header {
     position: sticky;
     top: 0px;
-    width: 94vw;
+
     border-top: var(--solid);
     border-bottom: var(--dashed);
     background-color: var(--white);
@@ -151,57 +151,8 @@ p {
 
 .content_section .subhead {
     border-bottom: var(--dashed);
+    --wght: 500;
 }
-/*
-╭──────╮
-│ GRID │
-╰──────╯
-*/
-.background_grid {
-    position: fixed;
-    z-index: 0;
-    pointer-events: none;
-
-    top: 0px;
-    height: 100vh;
-
-    color: transparent;
-}
-.background_grid div { border-left: var(--solid); }
-.background_grid div:last-child { border-right: var(--solid); }
-
-.grid {
-    width: 100%;
-    padding: 0px 32px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-}
-
-.grid hr {
-    grid-column: 1 / -1;
-    margin: 0px;
-    border: none;
-    border-bottom: var(--dashed);
-}
-
-.subgrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.spacer { padding-top: 50px; }
-
-.loose,
-.normal,
-.compact,
-.flush { margin: 0px; }
-.loose { padding: 20px 16px; }
-.normal { padding: 10px 16px; }
-.compact { padding: 0px 16px; }
-.flush { padding: 0px; }
-
-.last_column { grid-column: -2 / span 1; }
-.show_on_mobile { display: none; }
 
 /*
 ╭────────────────────╮
