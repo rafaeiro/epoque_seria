@@ -492,6 +492,9 @@ p {
     }
     #opentype {
         height: 405vh;
+<<<<<<< HEAD
+>>>>>>> parent of 54fd217 (fix responsividade)
+=======
 >>>>>>> parent of 54fd217 (fix responsividade)
     }
     .styles_overview p { display: none; }
