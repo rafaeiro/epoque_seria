@@ -20,16 +20,16 @@
     --dashed: 1px dashed var(--gridline);
 }
 
-
-* {
-    box-sizing: border-box;
-    font-variation-settings: normal bold normal;d
-}
-
 #waterfall {
+    box-sizing: border-box;
+    width: 94vw;
     height: 220vh; 
 }
+.waterfall {
+    width: 94vw;
+}
 #opentype {
+    width: 94vw;
     height: 135vh;
 }
 
@@ -41,8 +41,7 @@ b { font-family: "EpoqueSeriaBlack"; font-weight: bold; }
 i,
 em { font-style: italic;}
 
-h4,
-p {
+h4, .card__upper__state {
     margin: 0px;
     font-style: normal;
     font-weight: bold;
@@ -434,19 +433,14 @@ p {
 
 /* EXTRA TINY */
 @media only screen and (max-width: 500px) {
-<<<<<<< HEAD
     #opentype {
         height: 380vh;
-=======
+    }
     #waterfall {
         height: 190vh;
     }
     #opentype {
         height: 405vh;
-<<<<<<< HEAD
->>>>>>> parent of 54fd217 (fix responsividade)
-=======
->>>>>>> parent of 54fd217 (fix responsividade)
     }
     .styles_overview p { display: none; }
     .styles_overview div { grid-column: 1 / -1; border-bottom: var(--dashed); }
@@ -462,4 +456,5 @@ p {
 
     .opentype_section .card { grid-column-end: span 4; }
     .opentype_section .card:nth-child(n+3) { border-top: var(--dashed); }
+    .card .case { font-size: 36px; }
 }
