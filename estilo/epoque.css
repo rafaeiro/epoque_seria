@@ -969,6 +969,11 @@ footer {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .paginas1 { 
+        background-size: 120vw;
+        min-height: 75vh;
+        max-height: 78vh;
+    }
     .paginas>div {
         padding-top: 40px;
     }
@@ -1239,6 +1244,11 @@ footer {
     #paginas {
         height: 172vh;
     }
+    .paginas1 { 
+        background-size: 125vw;
+        min-height: 60vh;
+        max-height: 70vh;
+    }
     .principal {
         height: 112vh;
         width: 95vw;
@@ -1423,5 +1433,12 @@ footer {
     }
     #fon {
         padding-top: 2vw;
+    }
+    /* section waterfall e opentype */
+    #opentype {
+        height: 320vh;
+    }
+    #waterfall {
+        height: 150vh;
     }
 }
