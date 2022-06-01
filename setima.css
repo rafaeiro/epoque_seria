@@ -315,7 +315,7 @@ p {
 .card:hover .card__lower.smcp { font-family: "EpoqueSeria";}
 
 /* Spans dentro de cards*/
-.catalan, .nederland, .numr, .dnom, .sups, .subs {
+.catalan, .nederland, .portugues, .numr, .dnom, .sups, .subs {
     color: var(--cor04);
 }
 
